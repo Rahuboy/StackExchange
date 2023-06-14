@@ -1,0 +1,38 @@
+###user.js###
+Get User by Id (DONE) (TESTED USING CURL)
+Get User by Display Name (DONE) (TESTED USING CURL) (For space use %20)
+Create User (DONE) (TESTED USING CURL)
+
+###autocomplete.js###
+Auto Complete User (DONE but might need indexing, should test with frontend) (TESTED USING CURL)
+Auto Complete Tag (DONE but might need indexing, should test with frontend) (TESTED USING CURL)
+
+###post.js###
+Get post by tag (DONE) (TESTED USING CURL) (Note: use angle brackets around tag_name)
+Get post by tags (DONE) (TESTED USING CURL) (Note: use angle brackets around each tag; egs: "tags":["<comments>", "<documentation>"])
+Get post by ID (DONE) (TESTED USING CURL)
+Get posts by User ID (DONE) (TESTED USING CURL)
+Edit post (DONE) (TESTED USING CURL)
+Delete post (DONE) (TESTED USING CURL) 
+
+###question.js###
+Upvote a question -- This increments upvote count of upvoter, reputation of question asker += 5 (DONE) (TESTED USING CURL)
+Downvote a question -- This increments downvote count of downvoter, reputation of question asker -=2, of downvoter -=1 (DONE) (TESTED USING CURL)
+Create a question (DONE) (TESTED USING CURL) (tags should be a string like: "<tag1><tag2>" )
+Get question by user ID (DONE) (TESTED USING CURL) 
+
+###answer.js###
+Upvote an answer -- This increments upvote count of upvoter, reputation of answerer += 10 (DONE) (TESTED USING CURL)
+Downvote an answer -- This increments downvote count of downvoter, reputation of answerer -=2, of downvoter -=1 (DONE) (TESTED USING CURL)
+Answer a question (DONE) (TESTED USING CURL)
+Get Answer by user ID (DONE) (TESTED USING CURL)
+Get Answer by question ID (DONE) (TESTED USING CURL)
+
+
+###auth.js###
+Login and auth (DONE)
+
+
+Additional / Optional functionality: 
+Close a question (DONE)
+Accept an answer 

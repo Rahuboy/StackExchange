@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: http://localhost:3000
+Vary: Origin
+Access-Control-Allow-Credentials: true
+Content-Type: application/json; charset=utf-8
+Content-Length: 457
+ETag: W/"1c9-JedXdtcXVuPib46Jwpvc0yyU82g"
+Date: Sat, 25 Feb 2023 13:16:54 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+[{"id":1,"excerpt_post_id":84634,"wiki_post_id":84633,"tag_name":"comments","count":199},{"id":3,"excerpt_post_id":133740,"wiki_post_id":133739,"tag_name":"code-smell","count":165},{"id":54,"excerpt_post_id":179324,"wiki_post_id":179323,"tag_name":"concurrency","count":362},{"id":55,"excerpt_post_id":121323,"wiki_post_id":121322,"tag_name":"code-quality","count":638},{"id":136,"excerpt_post_id":40776,"wiki_post_id":40775,"tag_name":"coding","count":91}]
